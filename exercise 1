@@ -1,0 +1,7 @@
+x <- NA
+y <- c(1:5, NaN, NA, sqrt(3))
+if (any(is.na(x))) {
+  print("Can't proceed NA or NaN present!)
+}
+if (any(is.na(y))) {
+  print("Can't proceed NA or NaN present!)
